@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue Light", Arial, sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container header {
+  display: flex;
+}
+.container header .left {
+  width: 500px;
+  height: 650px;
+  background-color: #202026;
+}
+.container header .left img {
+  width: 490px;
+  border-radius: 0px;
+  border-bottom: 5px solid black;
+}
+.container header .right {
+  width: 1050px;
+  height: 300px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fecb00;
+  color: #2d2c2c;
+}
+.container header .right .name-box p {
+  font-size: 40px;
+}
+.container header .right .name-box h1 {
+  font-size: 90px;
+}
+.container main {
+  display: flex;
+}
+.container main .left {
+  width: 490px !important;
+  width: 500px;
+  height: 650px;
+  background-color: #202026;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  height: 1800px !important;
+}
+.container main .left h1 {
+  width: 440px;
+  height: 70px;
+  text-align: left;
+  color: white;
+  border-bottom: 3px solid #fecb00;
+}
+.container main .left h4 {
+  margin-top: 40px;
+  font-size: 19px;
+  text-align: left;
+  line-height: 20px;
+  margin-left: 20px;
+}
+.container main .left p {
+  text-align: left;
+  line-height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.container main .left .reference {
+  margin-top: 100px;
+}
+.container main .left .projects {
+  margin-top: 100px;
+}
+.container main .left p {
+  word-spacing: 10px;
+  margin-top: 20px;
+}
+.container main .left p a {
+  color: #42b983;
+}
+.container main .left .SocialMedais {
+  margin-top: 100px;
+}
+.container main .left .SocialMedais h3 {
+  text-align: left;
+  margin-top: 25px;
+}
+.container main .left .SocialMedais h3 a {
+  color: chocolate;
+}
+.container main .left .Contacts h1 {
+  margin-top: 100px;
+}
+.container main .left .Contacts h3 {
+  margin-top: 30px;
+}
+.container main .left .Contacts h3 p {
+  opacity: 100%;
+  color: white !important;
+}
+.container main .left .Contacts .ph,
+.container main .left .Contacts .gm {
+  width: 440px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(72, 68, 68);
+}
+.container main .right {
+  width: 500px;
+  color: #2d2c2c;
+}
+.container main .right .about-me {
+  width: 800px;
+  margin-left: 100px;
+}
+.container main .right .about-me h1 {
+  width: 850px;
+  border-bottom: 4px solid black;
+  font-size: 50px;
+  font-weight: lighter;
+  height: 70px;
+}
+.container main .right .about-me p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.container main .right .work-exp {
+  width: 800px;
+  margin-left: 100px;
+}
+.container main .right .work-exp h1 {
+  margin-top: 200px;
+  width: 850px;
+  border-bottom: 4px solid black;
+  font-size: 50px;
+  font-weight: lighter;
+  height: 70px;
+}
+.container main .right .work-exp p {
+  margin-top: 20px;
+  font-size: 20px;
+  word-spacing: 300px;
+}
+.container main .right .work-exp h3 {
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.container main .right .work-exp h4 {
+  width: 400px;
+  margin-left: 400px;
+}
+.container main .right .skill {
+  width: 800px;
+  margin-left: 100px;
+}
+.container main .right .skill h1 {
+  margin-top: 200px;
+  width: 850px;
+  border-bottom: 4px solid black;
+  font-size: 50px;
+  font-weight: lighter;
+  height: 70px;
+}
+.container main .right .skill .first {
+  display: flex;
+  gap: 200px;
+}
+.container main .right .skill h3 {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.container main .right .skill .progress-bar {
+  width: 200px;
+  height: 20px;
+  background-color: #eaeaea;
+  position: relative;
+}
+.container main .right .skill .progress-bar .progress {
+  height: 100%;
+  background-color: #42b983;
+  width: 70%;
+}
+.container main .right .skill .progress-bar .progress::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(66, 185, 131, 0.2);
+}
+.container main .right .languageSkill {
+  margin-left: 100px;
+}
+.container main .right .languageSkill h1 {
+  margin-top: 200px;
+  width: 850px;
+  border-bottom: 4px solid black;
+  font-size: 50px;
+  font-weight: lighter;
+  height: 70px;
+}
+.container main .right .languageSkill .first {
+  display: flex;
+  gap: 200px;
+}
+.container main .right .languageSkill h3 {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.container main .right .languageSkill .uz .progress {
+  height: 100%;
+  background-color: #42b983;
+  width: 100% !important;
+}
+.container main .right .languageSkill .trk .progress {
+  height: 100%;
+  background-color: #42b983;
+  width: 30% !important;
+}
+.container main .right .languageSkill .uk .progress {
+  height: 100%;
+  background-color: #42b983;
+  width: 20% !important;
+}
+.container main .right .languageSkill .progress-bar {
+  width: 200px;
+  height: 20px;
+  background-color: #eaeaea;
+  position: relative;
+}
+.container main .right .languageSkill .progress-bar .progress {
+  height: 100%;
+  background-color: #42b983;
+  width: 70%;
+}
+.container main .right .languageSkill .progress-bar .progress::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(66, 185, 131, 0.2);
+}/*# sourceMappingURL=style.css.map */
