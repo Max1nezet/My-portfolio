@@ -41,13 +41,14 @@ $progress-bg-opacity: 0.2;
         display: flex;
 
         .left {
-            @include left-about;
+            width: 515px;
+            height: 650px;
+            background-color: #202026FF;
 
             img {
-
                 width: 490px;
-                border-radius: 0px;
                 border-bottom: 5px solid black;
+                margin-left: 10px;
             }
         }
 
@@ -78,15 +79,13 @@ $progress-bg-opacity: 0.2;
         display: flex;
 
         .left {
-            width: 490px !important;
-            @include left-about;
-            text-align: center;
-            color: white;
+            width: 500px;
+            height: 100%;
+            background-color: #202026FF;
             padding: 50px;
-            height: 1800px !important;
-
+            color: white;
             h1 {
-                width: 440px;
+                width: 450px;
                 height: 70px;
                 text-align: left;
                 color: white;
@@ -117,7 +116,8 @@ $progress-bg-opacity: 0.2;
 
             p {
                 word-spacing: 10px;
-margin-top: 20px;
+                margin-top: 20px;
+
                 a {
                     color: #42b983;
                 }

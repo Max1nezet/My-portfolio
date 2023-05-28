@@ -14,14 +14,14 @@
   display: flex;
 }
 .container header .left {
-  width: 500px;
+  width: 515px;
   height: 650px;
   background-color: #202026;
 }
 .container header .left img {
   width: 490px;
-  border-radius: 0px;
   border-bottom: 5px solid black;
+  margin-left: 10px;
 }
 .container header .right {
   width: 1050px;
@@ -43,17 +43,14 @@
   display: flex;
 }
 .container main .left {
-  width: 490px !important;
   width: 500px;
-  height: 650px;
+  height: 100%;
   background-color: #202026;
-  text-align: center;
-  color: white;
   padding: 50px;
-  height: 1800px !important;
+  color: white;
 }
 .container main .left h1 {
-  width: 440px;
+  width: 450px;
   height: 70px;
   text-align: left;
   color: white;
